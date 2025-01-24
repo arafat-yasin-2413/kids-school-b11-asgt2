@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand-font {
+	font-family: "Quicksand", serif;
+	/* font-optical-sizing: auto; */
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Shared Styles */
+
+
+.hide{
+	display: none;
+}
+
+.display-flex{
+	display: flex;
+}
+
+.text-white{
+	color: #FFFFFF;
+}
+
+.text-black{
+	color: #111111;
+}
+
+.text-orange{
+	color: #FEA301;
+}
+
+.text-skyblue{
+	color: #01ACFD;
+}
+
+.text-lightblue{
+	color: #05D4DF;
+}
+
+.text-violet{
+	color: #5D58EF;
+}
+
+
+
+.country{
+	display: none;
+}
+
+
+
+/* Navbar CSS Starts */
+.navbar{
+	justify-content: space-between;
+	align-items: center;
+
+	max-width: 1500px;
+	margin: 0 auto;
+
+}
+
+.brand-image{
+	/* width: 62px;
+	height: 62px; */
+	width: 100%;
+}
+
+.brand{
+	font-size: 2rem;
+	font-weight: 700;
+} 
+
+
+.div-1{
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-2 li{
+	list-style: none;
+}
+
+.div-2 a{
+	text-decoration: none;
+}
+
+.btn-contact{
+	border: none;
+	border-radius: 12px;
+	background-color: #FEA301;
+	width: 200px;
+	font-size: 1.25rem;
+	font-weight: 500;
+
+	padding: 10px;
+}
+
+.nav-items{
+	gap: 30px;
+}
+
+.nav-link{
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+
+.horizontal-bar{
+	border: 2px solid orange;
+	width: auto;
+	
+}
+
+
+
+
+
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 576px) {
+	
+	.horizontal-bar{
+		display: block;
+		width: 100%;
+	}
+
+	.div-4{
+		display: block;
+	}
+	
+
+	.brand,
+	.div-2,
+	.btn-contact{
+		display: none;
+	}
+}
+
