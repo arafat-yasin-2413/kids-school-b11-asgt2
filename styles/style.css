@@ -19,6 +19,8 @@ body{
 body {
 	border: 4px solid green; 
 } */
+
+
 .display-flex {
 	display: flex;	
 }
@@ -426,7 +428,11 @@ body {
 @media screen and (max-width: 576px) {
 	.horizontal-bar {
 		display: block;
-		width: 100%;
+		width: 95%;
+	}
+
+	.icon{
+		margin-right: 10px;
 	}
 
 	.div-4 .icon {
@@ -496,25 +502,17 @@ body {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		width: 100%;
+
+		/* padding: 10px; */
 	}
 
 	.box-container img {
 		width: 100%;
 	}
 
-	.story-card-title-1 {
-		margin-top: 0px;
-		margin-bottom: 0px;
-		font-size: 1rem;
-	}
-
-	.story-card-description {
-		display: none;
-	}
-
 	.btn{
 		font-size: 0.9rem;
-		width: 70%;
+		width: 30%;
 		padding: 10px;
 	}
 
@@ -539,6 +537,14 @@ body {
 	.story-card {
 		height: 100%;
 		width: 90%;
+		/* margin-left: 10px;
+		 */
+		margin: 0 auto;
+	
+	}
+
+	.our-stories-div{
+		width: 100%;
 	}
 }
 
