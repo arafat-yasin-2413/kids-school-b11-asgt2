@@ -259,7 +259,19 @@
 	color: rgba(135, 0, 255, 1);
 	font-weight: 700;
 }
- 
+
+/* Arrow Container CSS starts */
+.arrow-container{
+	display: flex;
+	gap: 10px;
+
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
 
 
 /* Media Queries for Mobile Devices */
@@ -317,6 +329,14 @@
 
 	.curriculum-card img{
 		width: auto;
+	}
+
+	.arrow-container{
+		display: none;
+	}
+
+	.arrow-container img{
+		width: 100%;
 	}
 
 	
