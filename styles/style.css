@@ -424,6 +424,124 @@ body {
 	font-weight: 700;
 }
 
+/* Footer CSS Starts */
+footer{
+	background-color: #01ACFD;
+
+}
+
+.footer-container{
+
+	/* border: 2px solid tomato; */
+	max-width: 1500px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+	justify-items: space-between;
+
+	gap: 100px;
+
+	
+}
+
+.footer-left{
+	max-width: 40%;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.footer-div-middle a{
+	text-decoration: none;
+}
+
+.footer-div-middle h4{
+	margin-bottom: 5px;
+}
+
+.footer-brand{
+	font-size: 2.6rem;
+	font-weight: 700;
+}
+
+.footer-div-1{
+	gap: 10px;
+	align-items: center;
+	
+}
+
+.footer-div-1 div{
+	margin-bottom: -20px;
+}
+
+
+.footer-description{
+	font-size: 1.25rem;
+	margin-left: 10px;
+}
+
+
+.about-school{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.footer-link{
+	color: white;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+
+.keep-in-touch{
+	font-size: 1.6rem;
+	
+}
+
+.footer-div-middle{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.footer-div-right{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-left: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries for Mobile Devices */
 @media screen and (max-width: 576px) {
 	
@@ -551,6 +669,21 @@ body {
 
 	.our-stories-div{
 		width: 100%;
+	}
+
+	.footer-container{
+		flex-direction: column;
+		width: 80%;
+		margin-left: 50px;
+
+		/* border: 5px solid blueviolet; */
+	}
+
+	
+	.footer-div-right{
+		max-width: 100%;
+		margin: 0 auto;
+		margin-left: 0px;
 	}
 }
 
