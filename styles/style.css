@@ -55,6 +55,10 @@ a{
 	display: none;
 }
 
+.btn{
+	font-family: Quicksand;
+}
+
 /* Navbar CSS Starts */
 .navbar {
 	justify-content: space-between;
@@ -94,6 +98,7 @@ a{
 }
 
 .btn-contact {
+	font-family: Quicksand;
 	border: none;
 	border-radius: 12px;
 	background-color: #fea301;
@@ -420,6 +425,9 @@ marquee h3{
 }
 
 .btn-view-all {
+	font-family: Quicksand;
+	font-size: 1.25rem;
+	font-weight: 700;
 	border: none;
 	border: 12px;
 	background-color: black;
@@ -556,7 +564,9 @@ footer{
 
 /* Media Queries for Mobile Devices */
 @media screen and (max-width: 576px) {
-	
+	.navbar{
+		margin-top: 20px;
+	}
 	.horizontal-bar {
 		display: block;
 		width:99%;
