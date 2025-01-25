@@ -170,6 +170,95 @@
 }
 
 
+
+/* Curriculum CSS Starts */
+.curriculum-container{
+	background-image: url('../assets/bg.png');
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+
+}
+
+.curriculum-title{
+	font-size: 2.8rem;
+	color: black;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.curriculum-cards{
+	max-width: 1500px;
+	margin: 0 auto;
+	gap: 40px;
+
+	justify-content: center;
+	align-items: center;
+
+	margin-bottom: 50px;
+}
+
+.curriculum-card{
+	width: 35%;
+	height: 50vh;
+
+	padding: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	border-radius: 20px;
+
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+	
+}
+
+.curriculum-card img{
+	width: auto;
+} 
+
+
+.card-1{
+	background: linear-gradient(to bottom,rgba(222, 245, 255, 1),rgba(255, 255, 255, 0));
+}
+
+.card-2{
+	background: linear-gradient(to bottom,rgba(255, 244, 220, 1),rgba(255, 255, 255, 0));
+}
+
+.card-3{
+	background: linear-gradient(to bottom,rgba(238, 225, 255, 1),rgba(255, 255, 255, 0));
+}
+
+.card-title{
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: rgba(32, 32, 32, 1);
+}
+
+.card-description{
+	color: rgba(128, 128, 128, 1);
+}
+
+#read-more-1{
+	color: rgba(100, 200, 255, 1);
+	font-weight: 700;
+}
+
+#read-more-2{
+	color: rgba(240, 170, 0, 1);
+	font-weight: 700;
+}
+
+#read-more-3{
+	color: rgba(135, 0, 255, 1);
+	font-weight: 700;
+}
  
 
 
@@ -211,6 +300,26 @@
 		width: 100%;
 		margin-right: 0px;
 	}
+
+	.curriculum-title{
+		font-size: 1.6rem;
+	}
+
+	.curriculum-cards{
+		flex-direction: column;
+	
+	}
+
+	.curriculum-card{
+		width: 90%;
+		height: 70vh;
+	}
+
+	.curriculum-card img{
+		width: auto;
+	}
+
+	
 }
 
 .hide {
