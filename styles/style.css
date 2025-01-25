@@ -501,6 +501,12 @@
 		display: none;
 	}
 
+	.btn{
+		font-size: 0.9rem;
+		width: 70%;
+		padding: 10px;
+	}
+
 	.btn-type-1 {
 		width: auto;
 	}
