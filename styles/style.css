@@ -426,9 +426,10 @@ body {
 
 /* Media Queries for Mobile Devices */
 @media screen and (max-width: 576px) {
+	
 	.horizontal-bar {
 		display: block;
-		width: 95%;
+		width:99%;
 	}
 
 	.icon{
@@ -460,7 +461,8 @@ body {
 	}
 
 	.banner-image {
-		width: 100%;
+		width:100%;
+		/* width: auto; */
 		margin-right: 0px;
 	}
 
